@@ -1,5 +1,6 @@
 package br.com.couto.cartoes.demo.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import javax.persistence.Id;
 
 @Entity
 @NoArgsConstructor
+@AllArgsConstructor
 public class Cliente {
 
     @Id
