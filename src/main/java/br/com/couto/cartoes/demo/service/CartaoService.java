@@ -1,6 +1,6 @@
 package br.com.couto.cartoes.demo.service;
 
-import br.com.couto.cartoes.demo.Util.CartaoWrapperUtil;
+import br.com.couto.cartoes.demo.util.CartaoWrapperUtil;
 import br.com.couto.cartoes.demo.entity.Cartao;
 import br.com.couto.cartoes.demo.entity.Cliente;
 import br.com.couto.cartoes.demo.exception.CustomCartaoNotFoundException;

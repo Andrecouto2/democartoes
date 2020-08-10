@@ -1,4 +1,4 @@
-package br.com.couto.cartoes.demo.Util;
+package br.com.couto.cartoes.demo.util;
 
 import br.com.couto.cartoes.demo.entity.Cartao;
 import br.com.couto.cartoes.demo.entity.Cliente;

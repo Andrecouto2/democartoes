@@ -1,6 +1,6 @@
 package br.com.couto.cartoes.demo.service;
 
-import br.com.couto.cartoes.demo.Util.ClienteWrapperUtil;
+import br.com.couto.cartoes.demo.util.ClienteWrapperUtil;
 import br.com.couto.cartoes.demo.entity.Cliente;
 import br.com.couto.cartoes.demo.exception.CustomClienteNotFoundException;
 import br.com.couto.cartoes.demo.model.ClienteModel;
