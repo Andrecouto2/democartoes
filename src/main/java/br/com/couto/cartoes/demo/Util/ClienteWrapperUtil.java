@@ -7,8 +7,8 @@ public class ClienteWrapperUtil {
 
     public static ClienteModel unwrapperClienteToClienteModel(Cliente cliente) {
         ClienteModel clienteModel = new ClienteModel();
-        cliente.setId(cliente.getId());
-        cliente.setNome(cliente.getNome());
+        clienteModel.setId(cliente.getId());
+        clienteModel.setNome(cliente.getNome());
         return clienteModel;
     }
 
