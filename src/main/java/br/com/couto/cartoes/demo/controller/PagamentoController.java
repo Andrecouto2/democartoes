@@ -17,7 +17,7 @@ public class PagamentoController {
 
     @RequestMapping("/pagamento")
     @PostMapping()
-    public ResponseEntity<PagamentoModel> createPayment(PagamentoModel pagamentoModel) {
+    public ResponseEntity<PagamentoModel> createPayment(@RequestBody PagamentoModel pagamentoModel) {
         PagamentoModel novoPagamentoModel = pagamentoService.createPayment(pagamentoModel);
         return ResponseEntity.status(HttpStatus.CREATED).body(novoPagamentoModel);
     }

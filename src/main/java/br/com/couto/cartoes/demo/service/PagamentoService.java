@@ -31,8 +31,8 @@ public class PagamentoService {
         }
         Pagamento pagamento = new Pagamento();
         pagamento.setCartao(cartao.get());
-        pagamento.setDescricao(pagamento.getDescricao());
-        pagamento.setValor(pagamento.getValor());
+        pagamento.setDescricao(pagamentoModel.getDescricao());
+        pagamento.setValor(pagamentoModel.getValor());
 
         Pagamento novoPagamento = pagamentoRepository
                 .save(pagamento);
